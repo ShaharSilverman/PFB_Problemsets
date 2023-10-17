@@ -1,0 +1,148 @@
+    4  echo "# PFB_Problemsets" >> README.md
+    5  git init
+    6  git add README.md
+    7  git commit -m "first commit"
+    8  git branch -M main
+    9  git remote add origin git@github.com:ShaharSilverman/PFB_Problemsets.git
+   10  git push -u origin main
+   11  echo "# PFB_Problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:ShaharSilverman/PFB_Problemsets.git\ngit push -u origin main
+   12  ssh git@github.com:ShaharSilverman/PFB_Problemsets.git
+   13  cd ~
+   14  pwd
+   15  mkdir problem_sets
+   16  cd problemsets
+   17  ls
+   18  pwd
+   19  ls -a ..
+   20  ls -a ../
+   21  echo "# PFB_Problemsets" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:ShaharSilverman/PFB_Problemsets.git\ngit push -u origin main
+   22  ls -a
+   23  cd ..
+   24  ls
+   25  rm README.md
+   26  ls
+   27  cd problemsets
+   28  ls
+   29  rm README.md
+   30  echo "# PFB_Problemsets" >> README.md
+   31  git init
+   32  git add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:ShaharSilverman/PFB_Problemsets.git
+   33  ls
+   34  git push -u origin main
+   35  $ ssh-keygen -t ed25519 -C "shahar.silverman@yale.edu"
+   36  ssh-keygen -t ed25519 -C "shahar.silverman@yale.edu"
+   37  ls ~/.ssh
+   38  eval "$(ssh-agent -s)"
+   39  open ~/.ssh/config
+   40  touch ~/.ssh/config
+   41  vi touch ~/.ssh/config
+   42  IdentityFile ~/.ssh/id_ed25519
+   43  vi touch ~/.ssh/config
+   44  vi touch ~/.ssh/config
+   45  cat  ~/.ssh/id_ed25519.pub
+   46  ls
+   47  vi touch ~/.ssh/config
+   48  cat  ~/.ssh/id_ed25519.pub
+   49  git push -u origin main
+   50  vi git_exercises.txt
+   51  git add git_exercises.txt
+   52  git commit -m 'line of text'
+   53  git push origin main
+   54  git status
+   55  vi .git/hooks/
+   56  vi .git/hooks/
+   57  vi .git/hooks/pre-commit
+   58  chmod +x .git/hooks/pre-commit
+   59  cd ~
+   60  pwd
+   61  git clone https://github.com/prog4biol/pfb2023.git
+   62  ls
+   63  cd problemsets
+   64  ls
+   65  cd ~
+   66  git add top100.sorted.cuffdiff.out
+   67  cd problemsets
+   68  git add top100.sorted.cuffdiff.out
+   69  git commit git commit -m 
+   70  git commit git commit -m ''
+   71  git commit git commit -m top100.sorted.cuffdiff.out
+   72  ls
+   73  git status
+   74  git add cancer_genes.fasta cuffdiff.txt differentially.expressed.genes.txt sorted.cuffdiff.out touch
+   75  git commit -m 'adding previous problem set files'
+   76  git push
+   77  pwd
+   78  mkdir files
+   79  mv ../ cancer_genes.fasta files
+   80  mv ../ cancer_genes.fasta /files
+   81  mv ../ cancer_genes.fasta .files
+   82  mv ../ cancer_genes.fasta problemsets/files/
+   83  ls
+   84  pwd
+   85  ls
+   86  cd ~
+   87  ls
+   88  cd problemsets
+   89  ls
+   90  cd files
+   91  ls
+   92  git add cancer_genes.fasta
+   93  git commit -m 'adding cancer genes'
+   94  git push
+   95  cd ..
+   96  pwd
+   97  vi mysequences.txt
+   98  git add mysequences.txt
+   99  git commit -m 'add mysequences'
+  100  git push
+  101  mkdir fastas
+  102  cd ../
+  103  ls
+  104  cd problemsets
+  105  ls
+  106  cd files
+  107  cp cancer_genes.fasta ../fastas
+  108  cd ../
+  109  ls
+  110  cd fastas
+  111  ls
+  112  cd ../
+  113  cd files
+  114  rm cancer_genes.fasta
+  115  cd ../
+  116  cd files
+  117  ls
+  118  cd ../
+  119  cd fastas
+  120  ls
+  121  git add cancer_genes.fasta
+  122  git commit -m 'add cancergenes'
+  123  git push
+  124  cd ../
+  125  vi oops
+  126  git add oops
+  127  git commit -m 'add oops
+  128  git commit -m 'add oops'
+  129  git push
+  130  git rm push
+  131  git rm oops
+  132  vi oops2
+  133  git add oops 2
+  134  git add oops2
+  135  git commit -m 'add oops2'
+  136  git push
+  137  rm oops
+  138  rm oops2
+  139  git add oops2
+  140  git commit -m 'removing oops2'
+  141  git push
+  142  vi never
+  143  git add never
+  144  git reset never
+  145  history
+  146  man cp
+  147  cp history unixBasics.history.txt
+  148  man cp
+  149  history
+  150  pwd
+  151  history > unixBasics.history.txt
