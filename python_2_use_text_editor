@@ -1,0 +1,7 @@
+count = 10
+if count == 10:
+  print("Aye captain!")
+else:
+  print("not true")
+
+
