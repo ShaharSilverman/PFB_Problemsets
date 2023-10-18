@@ -1,0 +1,71 @@
+# Sequences have sequence operations 
+# the length of the string is 842 nucleotides
+
+#Question 6:
+import sys
+dna_string = sys.argv[1]
+count_A = 0
+count_T = 0
+count_C = 0
+count_G = 0 
+
+#for i in dna_string:
+ # if i == 'A'or i == 'a':
+  #  count_A = count_A + 1
+  #elif i == 'T' or i == 't':
+   # count_T = count_T + 1
+  #elif i == 'C' or i == 'c':
+   # count_C = count_C + 1
+  #elif i == 'G' or i == 'g': 
+    #count_G = count_G + 1
+#print("A = ", count_A, "C = ", count_C, "G = ", count_G,"T = ", count_T)
+
+
+#Question 7:
+#rna_string = dna_string.replace("T","U")
+#print(rna_string)
+
+#Question 8: 
+#dna_string = dna_string.upper()
+#rna_string = dna_string.replace("T","U")
+#print(rna_string)
+
+#Question 9:
+#length_of_string = len(dna_string)
+#proportion_of_AT = ((count_A + count_T) /length_of_string)*100
+#proportion_of_GC = ((count_G + count_C) /length_of_string)*100
+#print("The proportion of AT is:", proportion_of_AT, "\nThe proportion of GC is:", proportion_of_GC) 
+
+#Question_10
+#substring_of_dna = dna_string[99:200]
+#substring_length = len(substring_of_dna)
+#print("the length of the substring:",substring_length)
+#for i in substring_of_dna:
+#  if i == 'G' or i == 'g':
+#    count_G = count_G+1
+
+#print("the number of G's in the substring:", count_G)
+
+
+#Question_13:
+#dna_string = dna_string.upper()
+
+#reverse_dna1 = dna_string.replace("A", "t")
+#reverse_dna2 = reverse_dna1.replace("T", "a")
+#reverse_dna3 = reverse_dna2.replace("C", "g")
+#reverse_dna4 = reverse_dna3.replace("G", "c")
+
+#reverse_dna4 = reverse_dna4.upper()
+#reverse_dna5 = reverse_dna4[::-1]
+#print(reverse_dna5)
+
+#Question_14:
+
+EcorI_start = 'GAATTC'
+start_site = dna_string.find(EcorI_start[1])
+end_site = dna_string.find(EcorI_start[5])
+print(f'EcorI start position:{start_site} end position:{end_site}.')
+
+
+
+
