@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+
+#Question_2
+#taxa = 'sapiens, erectus, neanderthalensis'
+#print(taxa)
+#print(taxa[1])
+##I got the letter 'a'
+#print(type(taxa))
+##I got class 'str'
+#species = taxa.split(',')
+#print(species)
+##the type of species is list
+#print(species[1])
+## I got erectus
+#species_alphabetically = sorted(species, key = str.lower)
+#print(species_alphabetically)
+#species_length = sorted(species, key=len)
+#print(species_length)
+
+#Question_4
+#count = 0
+#while count < 101:
+#  print(count)
+#  count+=1
+#print("Done")
+
+#Question_5
+#num = 1000
+#n = 999
+#while n>=1:
+#  num = num*n
+#  n = n-1
+#print(num)
+
+#Question_6:
+#numbers = [101,2,15,22,95,33,2,27,72,15,52]
+#numbers_iterator = iter(numbers)
+#for number in numbers_iterator:
+#  if number%2 == 0:
+#    print(number)
+
+#Question_7:
+#numbers_7 = [101,2,15,22,95,33,2,27,72,15,52]
+#sorted(numbers_7)
+#cummulative_sum_1 = 0
+#cummulative_sum_2 = 0
+#numbers_iterator_7 = iter(numbers_7)
+#for number in numbers_iterator_7:
+#  if number%2 == 0:
+#    cummulative_sum_1 += number
+#  else:
+#    cummulative_sum_2 += number  
+#print("the sum of the even numbers is:", cummulative_sum_1, "\n the sum of the odd number is:", cummulative_sum_2)
+
+#Question_8:
+#for num in range(100):
+#for num in range(1,101):
+#  print(num)
+
+#Question_9:
+#number_list = [number for number in range(0,101)]
+#print(number_list)
+
+#Question_10:
+#import sys
+#bottom_limit = sys.argv[1]
+#top_limit = sys.argv[2]
+#bottom_limit = int(bottom_limit)
+#top_limit = int(top_limit)
+#my_range = range(bottom_limit,top_limit)
+#for num in my_range:
+#  if num%2 != 0:
+#    print(num)
+
+#Question_11:
+sequences = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+#sequences_it = iter(sequences)
+#for sequence in sequences:
+#  print(len(sequence), sequence, sep="\t")
+
+#Question_12:
+sequences_tuple = [(len(seuence) for sequence in sequences)]
+print(sequences_tuple)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
